@@ -1,0 +1,88 @@
+html {
+    background-color: #2c3e50;
+}
+
+* {
+    font-family: 'Open Sans';
+}
+
+h3 {
+    color:#E6FAFC;
+    text-align: center;
+}
+
+.heroes {
+    height: 40vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.character {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.character:active {
+    opacity: .7;
+}
+
+.male {
+    border: 4px;
+    border-style: dashed;
+    border-color: #1DD155;
+    border-radius: 15px;
+}
+
+#onlyMen {
+    background-color: #1DD155;
+}
+
+.female {
+    border: 4px;
+    border-style: dashed;
+    border-color: violet;
+    border-radius: 15px;
+}
+button {
+    border-style: solid;
+    border-color: #888888;
+    border-width: 1px;
+    margin: 10px;
+}
+
+#onlyWomen {
+    background-color: violet;
+}
+
+#everybody {
+    background-color: #3FAEFA;
+}
+
+button:active {
+    opacity: .7;
+}
+
+.actions {
+    display: flex;
+    justify-content: center;
+}
+
+.description {
+    width: auto;
+    height: auto;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    color: #E6FAFC;
+    border-style: dotted;
+    border-width: 3px;
+    display: none;
+}
+
+img {
+    padding: 10px;
+}
